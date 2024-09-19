@@ -1,4 +1,5 @@
 ﻿using System;
+using CsharpEstructuras;
 
 namespace CSharpHelloWorld
 {
@@ -30,6 +31,36 @@ namespace CSharpHelloWorld
             myDynamic = "Hola que tal he cambiado este dato";
             System.Console.WriteLine(myDynamic);
 
+            bool myBool = false;
+            System.Console.WriteLine(myBool);
+
+            System.Console.WriteLine($"El valor de mi entero es {myInt} y mi bool es {myBool}");
+
+            const string MyConst = "Mi Constante";
+            System.Console.WriteLine(MyConst);
+
+            // Estructuras
+
+            var myArray = new string[] { "Mohamed", "El Kasmi" };
+            System.Console.WriteLine(myArray);
+
+            // Todas as variables básicas:
+            int entero = 10;
+            double decimalGrande = 9.99;
+            float decimalPequeño = 3.14f;
+            char caracter = 'M';
+            string texto = "Hola";
+            bool esVerdadero = true;
+
+            Console.WriteLine(entero);
+            Console.WriteLine(decimalGrande);
+            Console.WriteLine(decimalPequeño);
+            Console.WriteLine(caracter);
+            Console.WriteLine(texto);
+            Console.WriteLine(esVerdadero);
+
+            Estructuras es= new Estructuras();
+            es.condicionales;
 
         }
     }
